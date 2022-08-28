@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <title>Card Reader</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        text-align: center;
+    }
+    input,label,button{
+        width: 90%;
+        font-size: 30px;
+    }
+</style>
+<body>
+    <form style="text-align: center;">
+        <label>Write some card number and I will tell you it's right number or no</label>
+        <input type="number" value="" name="Card Numebr" id="insertedText" placeholder="XXXX - XXXX  - XXXX - XXXX">
+    </form>
+    <button onclick="viewChanges()">View Changes</button>
+    <div class="content"></div>
+</body>
+</html>
